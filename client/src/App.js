@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import AppNvbar from './components/AppNavbar';
+import AppNavbar from './components/AppNavbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import AppNavbar from './components/AppNavbar';
 
 class App extends Component {
   render() {
