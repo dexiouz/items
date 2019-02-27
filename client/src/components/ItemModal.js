@@ -11,7 +11,8 @@ import  {
 } from 'reactstrap';
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
-class ItemModal extends React.Component  {
+
+class ItemModal extends Component  {
   state = {
     modal: false,
     name: ''
@@ -59,7 +60,7 @@ class ItemModal extends React.Component  {
               <FormGroup>
                 <Label for="item">Item</Label> <br/>
 
-                <input 
+                <Input 
                   type="text"
                   name="name"
                   id="item"
