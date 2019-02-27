@@ -72,7 +72,7 @@ class ItemModal extends Component  {
                  style={{marginTop: '2rem'}}
                  block
                 >
-                Add an item
+                Add to list
                 </Button>
               </FormGroup>
             </Form>
